@@ -1,0 +1,51 @@
+/* 明亮模式 */
+html.light {
+    background-color: #ffffff;
+    --el-menu-bg-color: #fafafa;
+    --el-menu-active-color: #dd001b; /* 选中项目字体的颜色 */
+    --el-menu-hover-bg-color: #f0f0f0; /* 悬浮停留背景的颜色 */
+}
+
+/* 窗口栏 */
+html.light #nav-bar {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #889999;
+}
+
+/* 修改窗口栏的文字颜色 */
+html.light #nav-bar #app-name {
+    color: #262626;
+}
+
+html.light #nav-bar #app-name.is-active {
+    color: #dd001b;
+}
+
+/* 修改窗口栏的图标颜色 */
+html.light #nav-bar .el-icon {
+    color: #262626;
+}
+
+html.light #nav-bar #setting-icon.is-active {
+    color: #dd001b;
+}
+
+/* 修改悬浮停留时图标的颜色 */
+html.light #nav-bar .el-icon:hover {
+    color: #dd001b !important;
+}
+
+html .el-divider--vertical {
+    border-left: 1px solid #6b6b6b;
+}
+
+/* 添加菜单背景颜色 | 添加菜单右边界 */
+html.light .el-aside {
+    background-color: #fafafa;
+    border-right: 1px solid #889999 !important;
+}
+
+/* 选中背景颜色 */
+html.light .el-menu-item.is-active {
+    background-color: #e8e8e8; /* 选中项目背景的颜色 */
+}

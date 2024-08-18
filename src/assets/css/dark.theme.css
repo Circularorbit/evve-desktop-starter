@@ -1,0 +1,41 @@
+/* 黑暗模式 */
+html.dark {
+    background-color: #2b2b2b;
+    --el-menu-bg-color: #303030;
+    --el-menu-active-color: #ffd700; /* 选中项目字体的颜色 */
+    --el-menu-hover-bg-color: #3a3a3a; /* 悬浮停留背景的颜色 */
+}
+
+html.dark #nav-bar {
+    background-color: #262626;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+html.dark #nav-bar #app-name {
+    color: #cccccc;
+}
+
+html.dark #nav-bar #app-name.is-active {
+    color: #ffd700;
+}
+
+html.dark #nav-bar .el-icon {
+    color: #cccccc;
+}
+
+html.dark #nav-bar #setting-icon.is-active {
+    color: #ffd700;
+}
+
+html.dark #nav-bar .el-icon:hover {
+    color: #ffd700 !important;
+}
+
+html.dark .el-aside {
+    background-color: #303030;
+    border-right: 1px solid #4f4f4f !important;
+}
+
+html.dark .el-menu-item.is-active {
+    background-color: #474747; /* 选中项目背景的颜色 */
+}
