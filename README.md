@@ -11,7 +11,7 @@
 ## Features
 
 📦 Out of the box  
-🎯 Based on the official [Circularorbit/electron-vite-vue-element-plus](https://github.com/Circularorbit/electron-vite-vue-element-plus.git)
+🎯 Based on the official [Circularorbit/electron-vite-vue-element-plus](https://github.com/Circularorbit/electron-vite-vue-element-plus.git)  
 🌱 Extensible, really simple directory structure  
 💪 Support using Node.js API in Electron-Renderer  
 🔩 Support C/C++ native addons  
